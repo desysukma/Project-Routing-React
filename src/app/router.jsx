@@ -6,7 +6,7 @@ import DestinasiEdit from "../features/DestinasiEdit";
 import DestinasiAbout from "../features/DestinasiAbout";
 import DestinasiContact from "../features/DestinasiContact";
 import NotFound from "../features/DestinasiNotFound";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 export const router = createBrowserRouter([
     {
@@ -19,6 +19,6 @@ export const router = createBrowserRouter([
             { path: "/destinasi/about", element: <DestinasiAbout/>},
             { path: "/destinasi/contact", element: <DestinasiContact/>},
             { path: "*", element: <NotFound /> },
-        ],
+        ], 
     },
-]);
+]); 
